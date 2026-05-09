@@ -1,0 +1,19 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+opencv-python-headless>=4.9
+scikit-image>=0.22
+scikit-learn>=1.4
+numpy>=1.26
+scipy>=1.11
+pydantic>=2.6
+joblib>=1.3
+Pillow>=10.0
+
+# GFPGAN (deep face restoration). Aplikasi auto-fallback ke pipeline
+# classical CV bila bobot/dependency tidak tersedia.
+torch>=2.0
+torchvision>=0.15
+basicsr>=1.4.2
+facexlib>=0.3.0
+gfpgan>=1.3.8

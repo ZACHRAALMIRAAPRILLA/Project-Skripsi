@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+models/*.pkl
+models/*.json
+models/weights/
+dataset/ringan/*
+dataset/sedang/*
+dataset/berat/*
+!dataset/*/.gitkeep
+!models/.gitkeep
